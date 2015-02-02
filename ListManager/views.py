@@ -21,11 +21,15 @@ def print_list(request):
 	printer.justify('C')
 	printer.println("My Grocery List")
 
-	printer.setSize('M')
-	printer.justify('L')
+
 
 	for item in list_data:
+		printer.setSize('M')
+		printer.justify('L')
 		printer.println(item["name"])
+		printer.justify('C')
+		printer.setSize('S')
+		printer.println(item["amount"])
 		printer.feed()
 
 	return HttpResponse()
