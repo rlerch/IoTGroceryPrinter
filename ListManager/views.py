@@ -17,6 +17,7 @@ def list_manager(request):
 def print_list(request):
 	list_data = json.loads(request.body)
 
+	printer.setLineHeight()
 	printer.setSize('L')
 	printer.justify('C')
 	printer.println("My Grocery List")
@@ -26,10 +27,15 @@ def print_list(request):
 	for item in list_data:
 		printer.setSize('M')
 		printer.justify('L')
-		printer.println(item["name"])
+
+		printer.print(item["name"])
+
 		printer.justify('C')
 		printer.setSize('S')
+
 		printer.println(item["amount"])
 		printer.feed()
 
+
+	printer.feed(3)
 	return HttpResponse()
