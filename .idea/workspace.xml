@@ -37,7 +37,7 @@
       <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ListManager/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="28" selection-start="587" selection-end="587" vertical-scroll-proportion="0.45454547" vertical-offset="245" max-vertical-offset="690">
+            <state line="24" column="18" selection-start="531" selection-end="531" vertical-scroll-proportion="0.5714286" vertical-offset="140" max-vertical-offset="600">
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -585,7 +585,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ListManager/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="28" selection-start="587" selection-end="587" vertical-scroll-proportion="0.45454547" vertical-offset="245" max-vertical-offset="690">
+        <state line="24" column="18" selection-start="531" selection-end="531" vertical-scroll-proportion="0.5714286" vertical-offset="140" max-vertical-offset="600">
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
