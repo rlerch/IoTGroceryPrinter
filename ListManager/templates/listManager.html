@@ -1,0 +1,35 @@
+{% verbatim %}
+
+
+
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <title></title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.11/angular.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="/static/listController.js"></script>
+    <script type="text/javascript" src="http://angular-ui.github.com/ng-grid/lib/ng-grid.debug.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://angular-ui.github.com/ng-grid/css/ng-grid.css" />
+    <link rel="stylesheet" type="text/css" href="/static/gridStyle.css"/>
+
+</head>
+    <body ng-controller="MyCtrl" ng-init="init()">
+        <h1>List Manager</h1>
+        <button ng-click="print()">PRINT!</button>
+
+        <ul id="item-list">
+            <li ng-repeat="item in items">
+                {{item.name}} -- {{ item.amount }}
+                <button ng-click="deleteItem(item)">X</button>
+            </li>
+        </ul>
+
+        <input ng-model="inputBoxName">
+        <input ng-model="inputBoxAmount">
+        <button ng-click="addItem()">+</button>
+
+    </body>
+</html>
+
+{% endverbatim %}
