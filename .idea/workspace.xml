@@ -37,7 +37,7 @@
       <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ListManager/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="28" selection-start="665" selection-end="665" vertical-scroll-proportion="0.64935064" vertical-offset="245" max-vertical-offset="690">
+            <state line="28" column="28" selection-start="587" selection-end="587" vertical-scroll-proportion="0.45454547" vertical-offset="245" max-vertical-offset="690">
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -48,7 +48,7 @@
       <file leaf-file-name="Adafruit_Thermal.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ListManager/Adafruit_Thermal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="379" column="37" selection-start="11546" selection-end="11546" vertical-scroll-proportion="-208.2" vertical-offset="480" max-vertical-offset="8685">
+            <state line="573" column="24" selection-start="16591" selection-end="16591" vertical-scroll-proportion="-10.8" vertical-offset="8325" max-vertical-offset="8745">
               <folding>
                 <element signature="e#1785#1822#0" expanded="true" />
               </folding>
@@ -98,10 +98,10 @@
         <option value="$PROJECT_DIR$/templates/listManager.html" />
         <option value="$PROJECT_DIR$/PiListPrinter/settings.py" />
         <option value="$PROJECT_DIR$/ListManager/templates/gridStyle.css" />
-        <option value="$PROJECT_DIR$/ListManager/Adafruit_Thermal.py" />
         <option value="$PROJECT_DIR$/ListManager/templates/listManager.html" />
         <option value="$PROJECT_DIR$/PiListPrinter/urls.py" />
         <option value="$PROJECT_DIR$/ListManager/static/listController.js" />
+        <option value="$PROJECT_DIR$/ListManager/Adafruit_Thermal.py" />
         <option value="$PROJECT_DIR$/ListManager/views.py" />
       </list>
     </option>
@@ -576,7 +576,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ListManager/Adafruit_Thermal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="379" column="37" selection-start="11546" selection-end="11546" vertical-scroll-proportion="-208.2" vertical-offset="480" max-vertical-offset="8685">
+        <state line="573" column="24" selection-start="16591" selection-end="16591" vertical-scroll-proportion="-10.8" vertical-offset="8325" max-vertical-offset="8745">
           <folding>
             <element signature="e#1785#1822#0" expanded="true" />
           </folding>
@@ -585,7 +585,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ListManager/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="28" selection-start="665" selection-end="665" vertical-scroll-proportion="0.64935064" vertical-offset="245" max-vertical-offset="660">
+        <state line="28" column="28" selection-start="587" selection-end="587" vertical-scroll-proportion="0.45454547" vertical-offset="245" max-vertical-offset="690">
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>

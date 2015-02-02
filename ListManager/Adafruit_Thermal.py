@@ -565,6 +565,10 @@ class Adafruit_Thermal(Serial):
 		for arg in args:
 			self.write(str(arg))
 
+	def print_safe(self, *args, **kwargs):
+		for arg in args:
+			self.write(str(arg))
+
 	# For Arduino code compatibility again
 	def println(self, *args, **kwargs):
 		for arg in args:

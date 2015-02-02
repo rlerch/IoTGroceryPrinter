@@ -28,7 +28,7 @@ def print_list(request):
 		printer.setSize('M')
 		printer.justify('L')
 
-		printer.print(item["name"])
+		printer.print_safe(item["name"])
 
 		printer.justify('C')
 		printer.setSize('S')
